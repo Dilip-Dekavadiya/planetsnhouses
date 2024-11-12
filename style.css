@@ -739,6 +739,25 @@ ul li {
     color: #020000;
 }
 
+.hederMenuUl ul {
+    color: #000000;
+}
+.hederMenuUl ul li {
+    color: #000000;
+    width: 100%;
+    padding: 0;
+}
+.hederMenuUl ul li a {
+    color: #000000;
+    padding: 8px 15px;
+    width: 100%;
+    display: inline-block;
+}
+.hederMenuUl ul li a:hover {
+    color: #000000;
+    opacity: 0.8    ;
+}
+
 .footerTop {
     background: #000000;
     padding-top: 48px;
@@ -1849,6 +1868,50 @@ header {
 .videoSlideBoxHover img
 {   width: 100%;
 }
+
+.pagebannerCon{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/bennerHome.jpg);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.accordion>.card,
+.accordion>.card>.card-header,
+.accordion>.card>.card-header button.btn{
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    border: 0;
+    box-shadow: inherit;
+    text-decoration: none;
+}
+.accordion>.card,
+.accordion>.card>.card-header{
+    padding: 0;
+}
+.accordion>.card>.card-header button.btn{
+    padding: 15px 30px 15px 15px;
+    border-radius: 4px;
+}
+.accordion>.card>.card-header button.btn:after{
+    content: '-';
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    font-size: 30px;
+}
+.accordion>.card>.card-header button.btn.collapsed:after{
+    content: '+'; 
+    top: 11px;
+    right: 12px;
+    font-size: 21px;
+}
+.accordion>.card .card-body{
+    background: #eeeebf;
+}
 @media(min-width:768px) {
     .bennerTitleBoxFixd {
         background-image: inherit !important;
@@ -2183,6 +2246,10 @@ header {
     }
     .ayurvedaBgBoxImg {
         padding: 20% 10%;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
 

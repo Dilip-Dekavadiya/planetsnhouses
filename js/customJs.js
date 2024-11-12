@@ -118,3 +118,19 @@ $('.videoeSlider').slick({
       }
     ]
 });
+$('oneBoxSlider').slick({
+  dots: true,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000, 
+});
+$('.videoeSliderOne').slick({
+  dots: true,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000, 
+});
